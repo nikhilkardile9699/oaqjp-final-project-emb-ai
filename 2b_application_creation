@@ -1,0 +1,21 @@
+>>> from emotion_detection import emotion_detector
+
+... print("Import successful")
+
+... 
+
+Import successful
+
+>>> result = emotion_detector("I am very happy today")
+
+... print(result)
+
+... 
+
+
+
+
+
+
+
+I am very happy today
