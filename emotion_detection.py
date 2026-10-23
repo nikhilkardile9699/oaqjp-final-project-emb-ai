@@ -24,6 +24,7 @@ def emotion_detector(text_to_analyze):
         json=input_json,
         timeout=30
     )
+    return response.text
 
     response_data = response.json()
 
